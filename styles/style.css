@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{  
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* ============================================== font and body ============================================== */
+header{
+    background: linear-gradient(70.00deg, rgb(0, 0, 0),rgba(13, 9, 9, 0.906) 100%);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+}
+.nav-logo{
+    margin: 30px;
+    color: rgb(239, 15, 15);
+    font-size: 36px;
+    font-weight: 800;
+    /* line-height: 120%; */
+    
+}
+nav ul{
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    list-style: none;
+    padding: 5px 15px;
+}
+.nav-home-color-change{
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 0 5px;
+    background-color:  rgb(239, 15, 15);
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    /* margin-right: 25px; */
+    color: wheat;
+}
+
+
+/* =================================== nav done ====================================== */
