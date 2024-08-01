@@ -7,19 +7,24 @@
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
+    /* background-color: black; */
 }
 /* ============================================== font and body ============================================== */
 header{
     background: linear-gradient(70.00deg, rgb(0, 0, 0),rgba(13, 9, 9, 0.906) 100%);
+    width: 100%;
+    height: 874px;
 }
+
 nav{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 40px;
+    margin: 0px 100px;
 }
 .nav-logo{
-    margin: 30px;
+    margin: 50px;
     color: rgb(239, 15, 15);
     font-size: 36px;
     font-weight: 800;
@@ -48,13 +53,18 @@ nav ul li a{
     /* margin-right: 25px; */
     color: wheat;
 }
+.nav-text-list .fa-solid{
+    display: none;
+}
+
+
 /* =================================== nav done ====================================== */
 
 .the-banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 150px;
 }
 
@@ -91,4 +101,144 @@ nav ul li a{
     padding: 5px 25px;
     /* margin: 0 15px; */
     margin-right: 15px;
+}
+.to-hover:hover{
+    background-color: rgba(255, 255, 255, 0.159);
+    border: rgba(255, 255, 255, 0.159);
+}
+
+
+.banner-stat1{
+    border: 2px solid rgba(255, 255, 255, 0.159);
+    width: 140px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1600px;
+    top: 460px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0px 10px 10px 10px;
+    color: wheat;
+    font-weight: 600;
+}
+
+.banner-stat2{
+    border: 2px solid rgba(255, 255, 255, 0.159);
+    width: 140px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1400px;
+    top: 680px;
+    background-color:  rgba(255, 255, 255, 0.1);
+    border-radius: 10px 0px 10px 10px;
+    color: wheat;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    nav{
+        margin: 0px 5px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .fa-solid{
+        display: block;
+        color: wheat;
+    }
+    /* ----------------------------- */
+    .the-banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+    }
+    .banner-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 120%;
+    }
+    .banner-italic{
+        font-size: 30px;
+        font-weight: 300;
+        font-family: "Playwrite CU", cursive;
+    }
+    .banner-text p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20px;
+        /* letter-spacing: 0.5px; */
+        text-align: left; 
+        margin-bottom: 25px;
+    }
+    .banner-button a{
+        font-weight: 500;
+        text-decoration: none;
+        color: wheat;
+        border: 2px solid red;
+        border-radius: 15px;
+        background-color: red;
+        padding: 2px 18px;
+        margin-right: 15px;
+    }
+    .banner-man-image{
+        height: 480px;
+    }
+    .banner-stat1{
+        border: 2px solid rgba(255, 255, 255, 0.159);
+        width: 100px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 50px;
+        top: 520px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 0px 10px 10px 10px;
+        color: wheat;
+        font-weight: 600;
+        font-size: 10px;
+    }
+    /* .banner-stat2{
+        width: 100px;
+        height: 50px;
+        position: absolute;  
+        top: 800px;
+        left: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    .banner-stat2{
+        border: 2px solid rgba(255, 255, 255, 0.159);
+        width: 100px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 800px;
+        left: 200px;
+        background-color:  rgba(255, 255, 255, 0.1);
+        border-radius: 10px 0px 10px 10px;
+        color: wheat;
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+}
+
+main{
+    background-color: pink;
 }
