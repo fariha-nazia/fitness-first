@@ -53,7 +53,7 @@ nav ul li a{
     /* margin-right: 25px; */
     color: wheat;
 }
-.nav-text-list .fa-solid{
+.fa-solid{
     display: none;
 }
 
@@ -141,6 +141,84 @@ nav ul li a{
     color: wheat;
     font-weight: 600;
 }
+/* ================================ header done =========================================== */
+
+.change-your-habit-conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-habit-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    width: 50%;
+    border: 2px solid red;
+}
+
+.change-habit-text-container h1{
+    color: wheat;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%; 
+    margin-bottom: 20px;   
+}
+.change-habit-text-container p{
+    text-align: center;
+    color: wheat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;   
+}
+
+.habit-img-container{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    border: 2px solid black;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-gap: 20px;
+    justify-content: center;
+
+}
+
+.habit-img-box{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.habit-img-box h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    color: wheat;
+}
+.habit-img-box p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: wheat;
+}
+.habit-img-box img{
+    border-radius: 100px;
+}
+
+
+
+/* ================================ Change your habit =========================================== */
 
 @media (max-width: 576px) {
     nav{
@@ -208,17 +286,7 @@ nav ul li a{
         font-weight: 600;
         font-size: 10px;
     }
-    /* .banner-stat2{
-        width: 100px;
-        height: 50px;
-        position: absolute;  
-        top: 800px;
-        left: 200px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    } */
+ 
     .banner-stat2{
         border: 2px solid rgba(255, 255, 255, 0.159);
         width: 100px;
@@ -236,9 +304,36 @@ nav ul li a{
         font-weight: 600;
         font-size: 10px;
     }
+    .change-habit-text-container{
+        width: 70%;
+        margin: 50px;
+    }
+    .change-habit-text-container h1{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 120%;       
+    }
+    .change-habit-text-container p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;       
+    }
+
+    .habit-img-container{
+        /* display: grid;
+        grid-template-columns: repeat(1, 20%); */
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    
+
 
 }
 
 main{
     background-color: pink;
+
 }
