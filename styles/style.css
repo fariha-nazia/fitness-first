@@ -215,10 +215,58 @@ nav ul li a{
 .habit-img-box img{
     border-radius: 100px;
 }
-
-
-
 /* ================================ Change your habit =========================================== */
+
+#change-color-extra-mile{
+    background-color: rgb(34, 34, 34);
+}
+.run-extra-mile-container{
+    width: 80%;
+    margin: 100px 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 15px;
+}
+.run-extra-mile-text-box{
+    width: 40%;
+}
+.run-extra-mile-img img{
+    width: 366px;
+    height: 300px;
+    border-radius: 15px;
+}
+.run-extra-mile-text-box h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    color: wheat;
+    margin-bottom: 10px;
+}
+.run-extra-mile-text-box p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: wheat;
+    margin-bottom: 20px;
+}
+
+.run-extra-btn a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 5px 30px;
+    background-color: red;
+}
+
 
 @media (max-width: 576px) {
     nav{
@@ -325,10 +373,44 @@ nav ul li a{
         grid-template-columns: repeat(1, 20%); */
         display: flex;
         flex-direction: column;
-
+    }
+    /* ------------------------------------- */
+    
+    .run-extra-mile-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        color: black;
+        border-radius: 20px;
 
     }
-    
+    .run-extra-mile-text-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .run-extra-mile-text-box h1{
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    .run-extra-mile-text-box p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: center;
+    }
+    .run-extra-mile-img img{
+        margin-top: 30px;
+        width: 250px;
+        height: 230px;
+        border-radius: 15px;
+    }
 
 
 }
