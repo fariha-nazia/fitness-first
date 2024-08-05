@@ -428,9 +428,69 @@ main{
     font-weight: 600;
 
 }
-
 /* ======================== BMI Calculator the box and form =================================== */
+.meet-our-team-main-container{
+    /* border: 2px solid red; */
+    margin: 50px auto;
+}
+.meet-our-team-container{
+    margin: 10px auto;
+    width: 80%;
+    /* border: 2px solid red; */
+}
+.meet-our-team-container h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    color: wheat;
+}
+.team-intro{
+    color: wheat;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.meet-our-team-box{
+    /* border: 2px solid green; */
+    /* margin: 15px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 5px;
+    background-color: grey;
+    border-radius: 15px;
+}
+.team-member{
+    /* border: 2px solid purple; */
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    padding: 10px;
+    
+}
+.team-member img {
+    height: 270px;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    
+}
+.team-info {
+    padding: 20px;
+    /* background: rgba(0, 0, 0, 0.5); */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.team-info h4{
+    color: white;
+}
+.team-info p{
+    color: white;
+}
 
+/*     <!-- ================================= Meet our team ================================= -->*/
 
 /* @media (min-width: 992px) {
     header{
