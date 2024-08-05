@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&display=swap');
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css'); */
 
 
 *{  
@@ -278,7 +279,7 @@ main{
 
 .bmi-calcu-container{
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* margin: 0 100px; */
     display: flex;
     justify-content: center;
@@ -300,15 +301,17 @@ main{
     color: wheat;
 }
 /* =========================================BMI calcu the text ====================================== */
-
+#bmi-background-color-change{
+    background: rgb(34, 34, 34);
+}
 .bmi-calcu-chart-box{
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .bmi-calcu-chart-tex-box{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 40%;
     margin: 50px;
     /* text-align: center; */
@@ -321,11 +324,6 @@ main{
     color: wheat;
 }
 
-.bmi-calculator-chart-box{
-    border: 2px solid black;
-    width: 60%;
-    /* text-align: center; */
-}
 .bmi-calcu-chart-text{
     display: grid;
     grid-template-columns: 50% 1fr;
@@ -355,18 +353,82 @@ main{
 
 .bmi-calculator-chart-box{
     margin: 50px;
+    /* border: 2px solid black; */
+    width: 60%;
 }
 .bmi-calculator-chart-box h2{
     font-size: 28px;
     font-weight: 900;
     color: wheat;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
 }
 .bmi-calculator-chart-box p{
     font-size: 14px;
     font-weight: 400;
     color: wheat;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
+
+/* .bmi-calculator-chart-form{
+    border: 2px solid red;
+} */
+
+.bmi-form-deco{
+    width: 40%;
+    position: relative;
+    margin: 10px 10px;
+    /* border: 3px solid red; */
+
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 8px; 
+    background-color: gray;
+    border: none;
+}
+::placeholder{
+    color: wheat;
+}
+.form-deco-two{
+    width: 40%;
+    /* position: relative; */
+    /* margin: 10px 10px; */
+    /* border: 3px solid red; */
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 8px; 
+    background-color: gray;
+    color: wheat;
+    border: none;
+}
+.last-bmi-form-deco{
+    width: 90%;
+    position: relative;
+    margin: 10px;
+    height: 40px; 
+    padding: 0 10px;
+    border-radius: 8px;
+    background-color: gray;
+    color: wheat;
+    border: none;
+    
+}
+.form-btn{
+    margin: 20px 10px;
+}
+.form-btn a{
+    text-decoration: none;
+    color: wheat;
+    /* border: 2px solid red; */
+    /* margin: 20px 10px; */
+    padding: 5px 50px;
+    background-color: red;
+    border-radius: 15px;
+    font-weight: 600;
+
+}
+
 /* ======================== BMI Calculator the box and form =================================== */
 
 

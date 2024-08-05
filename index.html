@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness First</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
 </head>
 <body>
     <header >
@@ -186,11 +188,44 @@
                     We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. 
                 </p>
                 <div class="bmi-calculator-chart-form">
-
+                    <form action="" >
+                        <div class="input-form-bmi">
+                            <input type="text" placeholder="Height/cm" class="bmi-form-deco">
+                            <span>
+                                <input type="text" placeholder="Weight/kg" class="form-deco-two">
+                            </span>
+                        </div>
+                        <div class="input-form-bmi">
+                            <input type="text" placeholder="Age" class="bmi-form-deco">
+                            <span>
+                                <select class="form-deco-two">
+                                    <option>
+                                        Sex
+                                    </option>
+                                    <option value="">Male</option>
+                                    <option value="">Female</option>
+                                </select>
+                            </span>
+                        </div>
+                        <div class="input-form-bmi">
+                            <select class="last-bmi-form-deco">
+                                <option>
+                                    Select an activity factor
+                                </option>
+                                <option value="">Run</option>
+                                <option value="">Walks</option>
+                            </select>
+                        </div>
+                        <div class="form-btn">
+                            <a href="">Calculate</a>
+                        </div>  
+                    </form>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- =================================== BMI done============================================== -->
     
 
 
