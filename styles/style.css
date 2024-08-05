@@ -16,6 +16,9 @@ header{
     width: 100%;
     height: 874px;
 }
+body{
+    background-color: black;
+}
 
 nav{
 
@@ -327,6 +330,7 @@ main{
 .bmi-calcu-chart-text{
     display: grid;
     grid-template-columns: 50% 1fr;
+    margin-top: 60px;
     /* gap: 15px; */
     /* border: 2px solid green; */
 }
@@ -431,7 +435,7 @@ main{
 /* ======================== BMI Calculator the box and form =================================== */
 .meet-our-team-main-container{
     /* border: 2px solid red; */
-    margin: 50px auto;
+    margin: 50px auto ;
 }
 .meet-our-team-container{
     margin: 10px auto;
@@ -491,6 +495,54 @@ main{
 }
 
 /*     <!-- ================================= Meet our team ================================= -->*/
+.footer-container{
+    width: 80%;
+    border: 2px solid green;
+    margin: 50px auto;
+}
+.footer-main-container{
+    border: 2px solid red;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
+}
+.footer-part1 p{
+    color: wheat;
+}
+.footer-title{
+    font-size: 70px;
+    font-weight: 800;
+    color: red;
+}
+.footer-part2 h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: wheat;
+    padding: 3px 5px;
+}
+.footer-part2 p{
+    color: wheat;
+    padding: 3px 5px;
+}
+.footer-part3{
+    text-align: center;
+    margin: 50px;
+    color: wheat;
+}
+.footer-line{
+    width: 100%;
+    margin: 50px auto;
+    color: white;
+    height: 3px;
+    background-color: wheat;
+    border: none;
+}
+
+
 
 /* @media (min-width: 992px) {
     header{
@@ -715,6 +767,14 @@ main{
     }
     .bmi-calculator-chart-box{
         width: 100%;
+    }
+    /* ---------------------------------------- */
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-part1{
+        margin-bottom: 50px;
     }
 
 
